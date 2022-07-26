@@ -17,7 +17,10 @@ function Pandoc(doc, meta)
   -- Process header XML files
   processHeaderFile(vars, pandoc_data_dir, 'header1')
   processHeaderFile(vars, pandoc_data_dir, 'header2')
+  processHeaderFile(vars, pandoc_data_dir, 'header3')
   processHeaderFile(vars, pandoc_data_dir, 'footer1')
+  processHeaderFile(vars, pandoc_data_dir, 'footer2')
+  processHeaderFile(vars, pandoc_data_dir, 'footer3')
 
   -- Generate reference.docx file
   -- What OS am I on?
